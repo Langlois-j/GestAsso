@@ -1,0 +1,167 @@
+# Contribuer à gestAsso / Contributing to gestAsso
+
+---
+
+## 🇫🇷 Français
+
+### Bienvenue
+
+Merci de l'intérêt que vous portez à **gestAsso** !
+
+gestAsso est un ERP open source self-hosted destiné à la gestion de la vie associative.
+Conçu initialement pour les clubs sportifs affiliés à une fédération (FFME, FFB, FFC…),
+il a vocation à s'ouvrir progressivement à tout type d'association ayant besoin d'un outil
+pour gérer ses membres, ses activités, son matériel et ses obligations réglementaires.
+
+Distribué sous licence **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+### Accord de contribution (CLA — Contributor License Agreement)
+
+En soumettant une contribution à ce projet (Pull Request, patch, correction de bug,
+suggestion de code ou de documentation), **vous acceptez les conditions suivantes** :
+
+1. **Vous êtes l'auteur** de la contribution, ou vous avez le droit légal de la soumettre
+   au nom de son auteur.
+
+2. **Cession de droits** : Vous accordez à Julien Langlois, porteur du projet gestAsso,
+   une licence perpétuelle, mondiale, non exclusive, gratuite, sans redevance et irrévocable
+   pour utiliser, reproduire, modifier, préparer des œuvres dérivées, distribuer et
+   sous-licencier votre contribution, y compris dans le cadre d'une licence commerciale,
+   selon sa seule discrétion.
+
+3. **Continuité open source** : Votre contribution restera accessible sous la licence
+   AGPL-3.0 dans les versions open source de gestAsso. La cession de droits ci-dessus
+   s'applique uniquement à d'éventuelles versions futures sous une autre licence
+   (commerciale ou autre), à la seule discrétion du porteur du projet.
+
+4. **Conservation de votre copyright** : Vous conservez l'intégralité de vos droits
+   d'auteur sur votre contribution. Cette cession n'est pas exclusive — vous restez libre
+   d'utiliser votre propre code comme bon vous semble.
+
+5. **Absence de garantie tierce** : Votre contribution n'est pas soumise à des restrictions
+   de brevet, de marque ou d'autres droits tiers qui empêcheraient son utilisation
+   dans ce projet.
+
+> **En résumé** : Vous gardez vos droits. Vous nous donnez le droit de faire évoluer
+> le projet, y compris commercialement si besoin, tout en maintenant la version
+> open source accessible à tous.
+
+### Vision du projet
+
+gestAsso est pensé pour grandir :
+
+- **V1** — Clubs d'escalade affiliés FFME (club pilote : Desvr'Escalade)
+- **V2** — Ouverture à d'autres clubs sportifs et d'autres fédérations
+- **V3+** — Toute association ayant besoin de gérer sa vie associative
+  (membres, cotisations, activités, matériel, documents officiels…)
+
+Toute contribution qui améliore la généricité du logiciel sans casser les modules
+existants est la bienvenue.
+
+### Comment contribuer
+
+1. Forkez le dépôt `gestAsso`
+2. Créez une branche dédiée (`feature/ma-fonctionnalite` ou `fix/mon-correctif`)
+3. Committez vos modifications avec des messages clairs en français ou en anglais
+4. Ouvrez une Pull Request en décrivant vos changements et leur impact
+5. Attendez la revue du mainteneur
+
+### Convention de branches
+
+```
+main               → socle stable (BDD + menu + gestion club)
+feature/[module]   → développement d'un module
+fix/[bug]          → correction de bug
+release/vX.Y.Z     → préparation d'une release
+```
+
+### Code de conduite
+
+Soyez respectueux, constructif et bienveillant.
+Toute contribution doit rester dans l'esprit du projet : un outil communautaire
+au service des associations, accessible à tous, sans barrière technique.
+
+---
+
+## 🇬🇧 English
+
+### Welcome
+
+Thank you for your interest in **gestAsso**!
+
+gestAsso is a self-hosted open source ERP designed for managing associative life.
+Originally built for sports clubs affiliated with a federation (FFME, FFB, FFC…),
+it is intended to progressively open up to any type of association needing a tool
+to manage members, activities, equipment and regulatory obligations.
+
+Distributed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+### Contributor License Agreement (CLA)
+
+By submitting a contribution to this project (Pull Request, patch, bug fix, code
+or documentation suggestion), **you agree to the following terms**:
+
+1. **You are the author** of the contribution, or you have the legal right to submit
+   it on behalf of its author.
+
+2. **License grant**: You grant Julien Langlois, the maintainer of the gestAsso project,
+   a perpetual, worldwide, non-exclusive, royalty-free, irrevocable license to use,
+   reproduce, modify, prepare derivative works, distribute, and sublicense your
+   contribution, including under a commercial license, at his sole discretion.
+
+3. **Open source continuity**: Your contribution will remain accessible under the
+   AGPL-3.0 license in open source versions of gestAsso. The license grant above
+   applies only to potential future versions under a different license (commercial
+   or otherwise), at the sole discretion of the project maintainer.
+
+4. **You retain your copyright**: You retain full copyright over your contribution.
+   This grant is non-exclusive — you remain free to use your own code however
+   you see fit.
+
+5. **No third-party restrictions**: Your contribution is not subject to patent,
+   trademark, or other third-party rights restrictions that would prevent its use
+   in this project.
+
+> **In short**: You keep your rights. You give us the right to evolve the project,
+> including commercially if needed, while keeping the open source version
+> accessible to everyone.
+
+### Project vision
+
+gestAsso is designed to grow:
+
+- **V1** — FFME-affiliated climbing clubs (pilot club: Desvr'Escalade)
+- **V2** — Opening to other sports clubs and other federations
+- **V3+** — Any association needing to manage its associative life
+  (members, fees, activities, equipment, official documents…)
+
+Any contribution that improves the genericity of the software without breaking
+existing modules is welcome.
+
+### How to contribute
+
+1. Fork the `gestAsso` repository
+2. Create a dedicated branch (`feature/my-feature` or `fix/my-fix`)
+3. Commit your changes with clear messages in French or English
+4. Open a Pull Request describing your changes and their impact
+5. Wait for maintainer review
+
+### Branch convention
+
+```
+main               → stable core (DB + menu + club management)
+feature/[module]   → module development
+fix/[bug]          → bug fix
+release/vX.Y.Z     → release preparation
+```
+
+### Code of conduct
+
+Be respectful, constructive and kind.
+All contributions must remain in the spirit of the project: a community tool
+serving associations, accessible to all, without technical barriers.
+
+---
+
+*gestAsso — AGPL-3.0 — Julien Langlois — 2026*
+*https://github.com/[username]/gestAsso*
