@@ -27,9 +27,18 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            // ── Charte graphique GestAsso ──────────────────────────
+            ->brandName('GestAsso')
             ->colors([
-                'primary' => Color::Amber,
+                'primary'  => Color::hex('#2d9e6b'), // vert falaise
+                'gray'     => Color::Slate,
+                'danger'   => Color::hex('#c2622a'), // terre cuite
+                'warning'  => Color::Amber,
+                'success'  => Color::hex('#2d9e6b'),
+                'info'     => Color::hex('#1d4e89'), // bleu faïence
             ])
+           // ->viteTheme('resources/css/filament/admin/theme.css')
+            // ──────────────────────────────────────────────────────
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
             ->pages([

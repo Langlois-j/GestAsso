@@ -1,0 +1,91 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+:root {
+    /* GestAsso — Charte graphique */
+    --ga-blue:   #1d4e89;   /* bleu faïence profond   — navigation, titres */
+    --ga-accent: #2d9e6b;   /* vert falaise            — actions, succès    */
+    --ga-warm:   #c2622a;   /* terre cuite / corde     — alertes, warnings  */
+    --ga-chalk:  #f5f7fb;   /* blanc calcaire          — fond général       */
+}
+
+/* ── Fond général ─────────────────────────────────────────── */
+.fi-body {
+    background-color: var(--ga-chalk) !important;
+}
+
+/* ── Sidebar ──────────────────────────────────────────────── */
+.fi-sidebar {
+    background-color: var(--ga-blue) !important;
+}
+
+.fi-sidebar-nav-groups {
+    --sidebar-text: #e8edf5;
+}
+
+.fi-sidebar a,
+.fi-sidebar button,
+.fi-sidebar .fi-sidebar-item-label {
+    color: #e8edf5 !important;
+}
+
+.fi-sidebar .fi-sidebar-item-active,
+.fi-sidebar .fi-sidebar-item:hover {
+    background-color: rgba(255,255,255,0.12) !important;
+    border-radius: 0.5rem;
+}
+
+/* ── Topbar ───────────────────────────────────────────────── */
+.fi-topbar {
+    background-color: #ffffff !important;
+    border-bottom: 2px solid var(--ga-blue) !important;
+}
+
+/* ── Boutons primaires ────────────────────────────────────── */
+.fi-btn-primary,
+.fi-btn[data-color="primary"] {
+    background-color: var(--ga-accent) !important;
+    border-color:     var(--ga-accent) !important;
+    color: #ffffff !important;
+}
+
+.fi-btn-primary:hover,
+.fi-btn[data-color="primary"]:hover {
+    background-color: #228055 !important;
+    border-color:     #228055 !important;
+}
+
+/* ── Boutons danger / warning ─────────────────────────────── */
+.fi-btn-danger,
+.fi-btn[data-color="danger"] {
+    background-color: var(--ga-warm) !important;
+    border-color:     var(--ga-warm) !important;
+}
+
+/* ── Badges statut ────────────────────────────────────────── */
+.fi-badge[data-color="success"] { background-color: var(--ga-accent) !important; }
+.fi-badge[data-color="warning"] { background-color: var(--ga-warm)   !important; }
+.fi-badge[data-color="primary"] { background-color: var(--ga-blue)   !important; }
+
+/* ── Cards / panels ───────────────────────────────────────── */
+.fi-section,
+.fi-card {
+    border-top: 3px solid var(--ga-blue);
+}
+
+/* ── Titres de page ───────────────────────────────────────── */
+.fi-header-heading {
+    color: var(--ga-blue) !important;
+    font-weight: 700;
+}
+
+/* ── Police Jakarta Sans ──────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+body,
+.fi-body,
+.fi-sidebar,
+.fi-topbar {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
